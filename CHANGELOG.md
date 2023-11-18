@@ -1,5 +1,14 @@
 # Changelog
 
+## [Unreleased](https://github.com/buluma/ansible-role-storage/tree/HEAD)
+
+[Full Changelog](https://github.com/buluma/ansible-role-storage/compare/1.0.7...HEAD)
+
+**Closed issues:**
+
+- Update buluma/todo-to-issue-action@v1.0.1 @buluma [\#10](https://github.com/buluma/ansible-role-storage/issues/10)
+- Update action [\#9](https://github.com/buluma/ansible-role-storage/issues/9)
+
 ## [1.0.7](https://github.com/buluma/ansible-role-storage/tree/1.0.7) (2022-05-13)
 
 [Full Changelog](https://github.com/buluma/ansible-role-storage/compare/1.0.6...1.0.7)
