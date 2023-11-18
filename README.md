@@ -1,10 +1,10 @@
-# [storage](#storage)
+# [Ansible role storage](#storage)
 
 Create partitions, volume groups, volumes, filesystems and mounts
 
-|GitHub|GitLab|Quality|Downloads|Version|Issues|Pull Requests|
-|------|------|-------|---------|-------|------|-------------|
-|[![github](https://github.com/buluma/ansible-role-storage/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-storage/actions)|[![gitlab](https://gitlab.com/shadowwalker/ansible-role-storage/badges/master/pipeline.svg)](https://gitlab.com/shadowwalker/ansible-role-storage)|[![quality](https://img.shields.io/ansible/quality/57955)](https://galaxy.ansible.com/buluma/storage)|[![downloads](https://img.shields.io/ansible/role/d/57955)](https://galaxy.ansible.com/buluma/storage)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-storage.svg)](https://github.com/buluma/ansible-role-storage/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-storage.svg)](https://github.com/buluma/ansible-role-storage/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-storage.svg)](https://github.com/buluma/ansible-role-storage/pulls/)|
+|GitHub|GitLab|Downloads|Version|Issues|Pull Requests|
+|------|------|-------|-------|------|-------------|
+|[![github](https://github.com/buluma/ansible-role-storage/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-storage/actions)|[![gitlab](https://gitlab.com/shadowwalker/ansible-role-storage/badges/master/pipeline.svg)](https://gitlab.com/shadowwalker/ansible-role-storage)|[![downloads](https://img.shields.io/ansible/role/d/4844)](https://galaxy.ansible.com/buluma/storage)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-storage.svg)](https://github.com/buluma/ansible-role-storage/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-storage.svg)](https://github.com/buluma/ansible-role-storage/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-storage.svg)](https://github.com/buluma/ansible-role-storage/pulls/)|
 
 ## [Example Playbook](#example-playbook)
 
