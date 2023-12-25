@@ -1,10 +1,10 @@
-# [Ansible role storage](#storage)
+# Ansible role [storage](https://galaxy.ansible.com/ui/standalone/roles/buluma/storage/documentation)
 
 Create partitions, volume groups, volumes, filesystems and mounts
 
-|GitHub|GitLab|Downloads|Version|Issues|Pull Requests|
-|------|------|-------|-------|------|-------------|
-|[![github](https://github.com/buluma/ansible-role-storage/actions/workflows/molecule.yml/badge.svg)](https://github.com/buluma/ansible-role-storage/actions/workflows/molecule.yml)|[![gitlab](https://gitlab.com/shadowwalker/ansible-role-storage/badges/master/pipeline.svg)](https://gitlab.com/shadowwalker/ansible-role-storage)|[![downloads](https://img.shields.io/ansible/role/d/4844)](https://galaxy.ansible.com/buluma/storage)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-storage.svg)](https://github.com/buluma/ansible-role-storage/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-storage.svg)](https://github.com/buluma/ansible-role-storage/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-storage.svg)](https://github.com/buluma/ansible-role-storage/pulls/)|
+|GitHub|Version|Issues|Pull Requests|Downloads|
+|------|-------|------|-------------|---------|
+|[![github](https://github.com/buluma/ansible-role-storage/actions/workflows/molecule.yml/badge.svg)](https://github.com/buluma/ansible-role-storage/actions/workflows/molecule.yml)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-storage.svg)](https://github.com/buluma/ansible-role-storage/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-storage.svg)](https://github.com/buluma/ansible-role-storage/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-storage.svg)](https://github.com/buluma/ansible-role-storage/pulls/)|[![Ansible Role](https://img.shields.io/ansible/role/d/buluma/storage)](https://galaxy.ansible.com/ui/standalone/roles/buluma/storage/documentation)|
 
 ## [Example Playbook](#example-playbook)
 
@@ -99,9 +99,9 @@ storage_default_fstype: ext4
 
 The following roles are used to prepare a system. You can prepare your system in another way.
 
-| Requirement | GitHub | GitLab |
+| Requirement | GitHub | Version |
 |-------------|--------|--------|
-|[buluma.bootstrap](https://galaxy.ansible.com/buluma/bootstrap)|[![Build Status GitHub](https://github.com/buluma/ansible-role-bootstrap/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-bootstrap/actions)|[![Build Status GitLab](https://gitlab.com/shadowwalker/ansible-role-bootstrap/badges/master/pipeline.svg)](https://gitlab.com/shadowwalker/ansible-role-bootstrap)|
+|[buluma.bootstrap](https://galaxy.ansible.com/buluma/bootstrap)|[![Ansible Molecule](https://github.com/buluma/ansible-role-bootstrap/actions/workflows/molecule.yml/badge.svg)](https://github.com/buluma/ansible-role-bootstrap/actions/workflows/molecule.yml)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-bootstrap.svg)](https://github.com/shadowwalker/ansible-role-bootstrap)|
 
 ## [Context](#context)
 
@@ -140,14 +140,11 @@ If you find issues, please register them in [GitHub](https://github.com/buluma/a
 
 ## [License](#license)
 
-[Apache-2.0](https://github.com/buluma/ansible-role-storage/blob/master/LICENSE).
+[Apache-2.0](https://github.com/buluma/ansible-role-storage/blob/master/LICENSE)
 
 ## [Author Information](#author-information)
 
-[buluma](https://buluma.github.io/)
+[Shadow Walker](https://buluma.github.io/)
 
-Please consider [sponsoring me](https://github.com/sponsors/buluma).
-
-### [Special Thanks](#special-thanks)
 
 Template inspired by [Robert de Bock](https://github.com/robertdebock)
