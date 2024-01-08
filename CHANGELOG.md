@@ -1,14 +1,18 @@
 # Changelog
 
-## [Unreleased](https://github.com/buluma/ansible-role-storage/tree/HEAD)
+## [1.1.0](https://github.com/buluma/ansible-role-storage/tree/1.1.0) (2024-01-02)
 
-[Full Changelog](https://github.com/buluma/ansible-role-storage/compare/1.0.8...HEAD)
+[Full Changelog](https://github.com/buluma/ansible-role-storage/compare/1.0.8...1.1.0)
 
 **Closed issues:**
 
 - Update buluma/todo-to-issue-action@v1.0.1 @buluma [\#13](https://github.com/buluma/ansible-role-storage/issues/13)
 - Update action [\#12](https://github.com/buluma/ansible-role-storage/issues/12)
 - rebuild action [\#11](https://github.com/buluma/ansible-role-storage/issues/11)
+
+**Merged pull requests:**
+
+- Bump actions/checkout from 3 to 4 [\#16](https://github.com/buluma/ansible-role-storage/pull/16) ([dependabot[bot]](https://github.com/apps/dependabot))
 
 ## [1.0.8](https://github.com/buluma/ansible-role-storage/tree/1.0.8) (2023-12-25)
 
