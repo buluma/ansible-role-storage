@@ -1,8 +1,8 @@
 # Changelog
 
-## [Unreleased](https://github.com/buluma/ansible-role-storage/tree/HEAD)
+## [24.03.24](https://github.com/buluma/ansible-role-storage/tree/24.03.24) (2024-03-24)
 
-[Full Changelog](https://github.com/buluma/ansible-role-storage/compare/1.2.0...HEAD)
+[Full Changelog](https://github.com/buluma/ansible-role-storage/compare/1.2.0...24.03.24)
 
 **Merged pull requests:**
 
