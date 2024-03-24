@@ -1,13 +1,23 @@
 ---
 
-- name: partition | Test storage_partitions
+- name: partition | Test partition
   ansible.builtin.assert:
     that:
       - partition.name is defined
       - partition.number is defined
       - partition.part_start is defined or
         partition.part_end is defined
-    quiet: yes
+    quiet: true
+
+- name: partition | Test partition.label
+  ansible.builtin.assert:
+    that:
+      - partition.label is defined
+      - partition.label is iterable
+      - partition.label in [ "aix", "amiga", "bsd", "dvh", "gpt", "loop", "mac", "msdos", "pc98", "sun" ]
+    quiet: true
+  when:
+    - partition.label is defined
 
 - name: partition | Create partitions
   community.general.parted:
@@ -16,4 +26,5 @@
     flags: "{{ partition.flags | default(omit) }}"
     part_start: "{{ partition.part_start | default(omit) }}"
     part_end: "{{ partition.part_end | default(omit) }}"
+    label: "{{ partition.label | default(omit) }}"
     state: present

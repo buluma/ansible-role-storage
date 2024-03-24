@@ -51,6 +51,7 @@ storage_default_fstype: ext4
 #   - name: /dev/sdb
 #     number: 1
 #     part_end: 4GiB
+#     label: gpt
 #   - name: /dev/sdb
 #     number: 2
 #     flags:
@@ -58,7 +59,6 @@ storage_default_fstype: ext4
 #     part_start: 4GiB
 #     part_end: 8GiB
 
-# The `size` is the physical extend size.
 # storage_volumegroups:
 #   - name: group1
 #     devices:
@@ -69,7 +69,6 @@ storage_default_fstype: ext4
 #       - /dev/sdb2
 #     size: 128M
 
-# Sizes in megabytes.
 # storage_volumes:
 #   - name: var1
 #     vg: group1
@@ -86,7 +85,7 @@ storage_default_fstype: ext4
 #     group: root
 #     mode: "0755"
 #     opts: defaults
-#     boot: yes
+#     boot: true
 #     dump: 0
 #     passno: 2
 ```
@@ -119,12 +118,11 @@ This role has been tested on these [container images](https://hub.docker.com/u/b
 |---------|----|
 |[Alpine](https://hub.docker.com/repository/docker/buluma/alpine/general)|all|
 |[Amazon](https://hub.docker.com/repository/docker/buluma/amazonlinux/general)|Candidate|
-|[EL](https://hub.docker.com/repository/docker/buluma/enterpriselinux/general)|8|
+|[EL](https://hub.docker.com/repository/docker/buluma/enterpriselinux/general)|8, 9|
 |[Debian](https://hub.docker.com/repository/docker/buluma/debian/general)|all|
 |[Fedora](https://hub.docker.com/repository/docker/buluma/fedora/general)|all|
 |[opensuse](https://hub.docker.com/repository/docker/buluma/opensuse/general)|all|
 |[Ubuntu](https://hub.docker.com/repository/docker/buluma/ubuntu/general)|all|
-|[Kali](https://hub.docker.com/repository/docker/buluma/kali/general)|all|
 
 The minimum version of Ansible required is 2.12, tests have been done to:
 
