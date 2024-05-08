@@ -1,5 +1,9 @@
 # Changelog
 
+## [24.3.31](https://github.com/buluma/ansible-role-storage/tree/24.3.31) (2024-03-29)
+
+[Full Changelog](https://github.com/buluma/ansible-role-storage/compare/24.03.24...24.3.31)
+
 ## [24.03.24](https://github.com/buluma/ansible-role-storage/tree/24.03.24) (2024-03-24)
 
 [Full Changelog](https://github.com/buluma/ansible-role-storage/compare/1.2.0...24.03.24)
