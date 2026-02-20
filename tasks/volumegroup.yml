@@ -1,5 +1,4 @@
 ---
-
 - name: volumegroup | Test volumegroup
   ansible.builtin.assert:
     that:

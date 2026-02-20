@@ -1,5 +1,4 @@
 ---
-
 - name: filesystem | Test storage_filesystems
   ansible.builtin.assert:
     that:

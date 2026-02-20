@@ -1,5 +1,4 @@
 ---
-
 - name: assert | Test storage_default_fstype
   ansible.builtin.assert:
     that:

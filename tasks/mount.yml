@@ -1,5 +1,4 @@
 ---
-
 - name: mount | Test storage_mounts
   ansible.builtin.assert:
     that:
@@ -28,7 +27,7 @@
 
 - name: mount | Reload systemd
   ansible.builtin.command:
-    cmd: systemctl daemon-reload  # noqa: command-instead-of-module
+    cmd: systemctl daemon-reload # noqa: command-instead-of-module
   changed_when: false
   when:
     - ansible_service_mgr == "systemd"

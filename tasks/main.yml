@@ -15,7 +15,7 @@
 - name: Find scsi busses
   ansible.builtin.find:
     path: /sys/class/scsi_host
-    patterns: 'host*'
+    patterns: "host*"
   register: storage_scsi_busses
 
 - name: Scan scsi bus

@@ -1,5 +1,4 @@
 ---
-
 - name: volume | Test volume
   ansible.builtin.assert:
     that:
